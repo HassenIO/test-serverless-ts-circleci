@@ -18,6 +18,7 @@ To deploy on AWS Lambda, run `serverless deploy` which will transpile like previ
 
 Source:
 - [Serverless and Typescript](https://www.jamestharpe.com/serverless-typescript-getting-started/)
+- [Using Jest with TypeScript](https://basarat.gitbooks.io/typescript/docs/testing/jest.html)
 
 ## Automatic deployment with CircleCi
 

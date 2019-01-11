@@ -9,6 +9,11 @@ provider:
   name: aws
   runtime: nodejs8.10
 
+# exclude code coverage files from the zip package
+package:
+  exclude:
+  - coverage/**
+
 functions:
   hello:
     handler: src/handler.hello
